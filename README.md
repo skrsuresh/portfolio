@@ -1,20 +1,25 @@
-# Webflix
+# Portfolio Website - Suresh
 
-Webflix is a responsive movie and TV series streaming platform built using React. It fetches real-time data from the TMDB (The Movie Database) API and displays dynamic content, including trending, popular, and top-rated titles. The application also features user authentication powered by Firebase for secure login and account access.
+This is my personal portfolio website built using **React**, **Tailwind CSS**, and modern animation techniques. It showcases my background, skills, projects, and contact information, and is fully responsive across devices.
 
 ## Features
 
-- Fetches and displays trending, popular, and top-rated movies and TV shows
-- Responsive design that works across mobile, tablet, and desktop
-- User authentication using Firebase
-- Protected routes for logged-in users
+- Modern and responsive UI
+- Smooth scroll and viewport-based animations
+- Sidebar menu for mobile view
+- Downloadable resume (CV)
+- Section-based navigation (About Me, Skills, Projects, Contact)
+- Built with clean and reusable React components
+- Linkedind connect
 
 ## Technologies Used
 
 - React
-- Firebase Authentication
-- TMDB API
-- React Router DOM
-
-
+- Tailwind CSS
+- Vite (build tool)
+- Firebase (for deployment)
+  
+## Live Demo
+Visit the live site here:
+https://suresh-s-portfolio.web.app/
 
