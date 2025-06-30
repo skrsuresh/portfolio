@@ -63,7 +63,7 @@ export const Projects = () => {
                   className=" text-[#DF8908] hover:underline cursor-pointer block text-[16px] font-outfit md:text-[20px]"
                   onClick={() => Expand(index)}
                 >
-                  {ishidden[index] ? "Read more..."  : "Read less."}
+                  {ishidden[index] ? "Read less."  : "Read more..."}
                 </span>
               </p>
               
