@@ -32,7 +32,7 @@ export const Home = () => {
         </a>
 
         <a className="text-[16px] md:text-[20px] text-white px-[30px] py-[8px] rounded-4xl font-bold cursor-pointer flex items-center border-solid border hover:bg-white hover:text-black  active:bg-white active:text-black home5"
-        href="https://www.linkedin.com/in/suresh-skr-83a7b2258" target="blank" rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/sureshskr" target="blank" rel="noopener noreferrer"
         >
         <img src={linkedin} className="w-[30px]"/> | Let's connect!
         </a>
