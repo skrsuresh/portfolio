@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-outfit: "Outfit", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navsideul li:active {
+  background-color: #3d002c;
+}
+
+.navsideul li {
+  width: 100%;
+  padding: 5px;
+}
+
+.contacth2 {
+  background: linear-gradient(270deg, #df8908 45%, #b415ff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animaelist1 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+}
+
+.animaelist2 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+.animaelist3 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+.animaelist4 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 0.6s;
+}
+.animaelist4 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+.animaelist5 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 1.2s;
+}
+
+.animaelist6 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 1.5s;
+}
+
+.animaelist7 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 1.8s;
+}
+
+@keyframes list {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.home1 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+.home2 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 0.6s;
+}
+.home3 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 0.9s;
+}
+.home5 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 1.2s;
+}
+.home4 {
+  opacity: 0;
+  animation: list 1s ease-out forwards;
+  animation-delay: 1.5s;
+}
+
+.about {
+  animation: about linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes about {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.pskills {
+  animation: skill;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+.oskills {
+  animation: skill;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes skill {
+  from {
+    opacity: 0;
+    transform: translateX(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bar1 {
+  animation: bar1 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar1 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 90%;
+  }
+}
+.bar2 {
+  animation: bar2 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar2 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 80%;
+  }
+}
+.bar3 {
+  animation: bar3 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar3 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 60%;
+  }
+}
+.bar4 {
+  animation: bar4 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar4 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 50%;
+  }
+}
+.bar5 {
+  animation: bar5 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar5 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 80%;
+  }
+}
+.bar6 {
+  animation: bar6 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar6 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 60%;
+  }
+}
+.bar7 {
+  animation: bar7 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar7 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 80%;
+  }
+}
+.bar8 {
+  animation: bar8 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar8 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 90%;
+  }
+}
+.bar9 {
+  animation: bar9 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar9 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 80%;
+  }
+}
+.bar10 {
+  animation: bar10 linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
+
+@keyframes bar10 {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+
+  to {
+    opacity: 1;
+    width: 60%;
+  }
+}
+
+.contact {
+  animation: skill;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  transition: ease-out;
+}
