@@ -1,12 +1,20 @@
-# React + Vite
+# Webflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Webflix is a responsive movie and TV series streaming platform built using React. It fetches real-time data from the TMDB (The Movie Database) API and displays dynamic content, including trending, popular, and top-rated titles. The application also features user authentication powered by Firebase for secure login and account access.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches and displays trending, popular, and top-rated movies and TV shows
+- Responsive design that works across mobile, tablet, and desktop
+- User authentication using Firebase
+- Protected routes for logged-in users
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Firebase Authentication
+- TMDB API
+- React Router DOM
+
+
+
